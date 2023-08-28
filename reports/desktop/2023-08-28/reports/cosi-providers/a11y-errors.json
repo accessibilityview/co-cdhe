@@ -1,0 +1,273 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-151-DIV",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,H3,0,DIV",
+            "selector": "div.paragraph__column > div.paragraph__title > h3.mt-0 > div.field",
+            "boundingRect": {
+              "top": 435,
+              "bottom": 520,
+              "left": 695,
+              "right": 992,
+              "width": 297,
+              "height": 85
+            },
+            "snippet": "<div class=\"field field--name-field-card-title field--type-string field--label-hidden …\">",
+            "nodeLabel": "Community Partner Program",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.28 (foreground color: #ffffff, background color: #6cbf49, font size: 17.3pt (23px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-152-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.paragraph--type--bp-columns__3col > div.paragraph__card > div.paragraph__column > div.paragraph__title",
+                  "boundingRect": {
+                    "top": 435,
+                    "bottom": 520,
+                    "left": 695,
+                    "right": 992,
+                    "width": 297,
+                    "height": 85
+                  },
+                  "snippet": "<div class=\"paragraph__title title_color color__brand-tree-green  \">",
+                  "nodeLabel": "Community Partner Program"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-153-P",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,P",
+            "selector": "div.paragraph__card > div.paragraph__column > div.field > p",
+            "boundingRect": {
+              "top": 540,
+              "bottom": 724,
+              "left": 704,
+              "right": 983,
+              "width": 279,
+              "height": 185
+            },
+            "snippet": "<p>",
+            "nodeLabel": "COSI provides multi-year grants throughout the state to provide funding toward …",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.28 (foreground color: #ffffff, background color: #6cbf49, font size: 13.2pt (17.6px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-154-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV",
+                  "selector": "div.paragraph__column--container-wrapper > div.container > div.paragraph--type--bp-columns__3col > div.paragraph__card",
+                  "boundingRect": {
+                    "top": 435,
+                    "bottom": 944,
+                    "left": 695,
+                    "right": 992,
+                    "width": 297,
+                    "height": 510
+                  },
+                  "snippet": "<div class=\"paragraph__card paragraph paragraph--type--card-basic card_no-border parag…\">",
+                  "nodeLabel": "Community Partner Program\n\nCOSI provides multi-year grants throughout the state…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-155-DIV",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,H3,0,DIV",
+            "selector": "div.paragraph__column > div.paragraph__title > h3.mt-0 > div.field",
+            "boundingRect": {
+              "top": 964,
+              "bottom": 1015,
+              "left": 695,
+              "right": 992,
+              "width": 297,
+              "height": 51
+            },
+            "snippet": "<div class=\"field field--name-field-card-title field--type-string field--label-hidden …\">",
+            "nodeLabel": "Fund My Future",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.28 (foreground color: #ffffff, background color: #6cbf49, font size: 17.3pt (23px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-156-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.paragraph--type--bp-columns__3col > div.paragraph__card > div.paragraph__column > div.paragraph__title",
+                  "boundingRect": {
+                    "top": 964,
+                    "bottom": 1015,
+                    "left": 695,
+                    "right": 992,
+                    "width": 297,
+                    "height": 51
+                  },
+                  "snippet": "<div class=\"paragraph__title title_color color__brand-tree-green  \">",
+                  "nodeLabel": "Fund My Future"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-157-P",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,P",
+            "selector": "div.paragraph__card > div.paragraph__column > div.field > p",
+            "boundingRect": {
+              "top": 1035,
+              "bottom": 1114,
+              "left": 704,
+              "right": 983,
+              "width": 279,
+              "height": 79
+            },
+            "snippet": "<p>",
+            "nodeLabel": "This program offers school districts funding for student aid completion program…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.28 (foreground color: #ffffff, background color: #6cbf49, font size: 13.2pt (17.6px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-158-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV",
+                  "selector": "div.paragraph__column--container-wrapper > div.container > div.paragraph--type--bp-columns__3col > div.paragraph__card",
+                  "boundingRect": {
+                    "top": 964,
+                    "bottom": 1301,
+                    "left": 695,
+                    "right": 992,
+                    "width": 297,
+                    "height": 336
+                  },
+                  "snippet": "<div class=\"paragraph__card paragraph paragraph--type--card-basic card_no-border parag…\">",
+                  "nodeLabel": "Fund My Future\n\nThis program offers school districts funding for student aid co…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 4
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-159-H3",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H3",
+            "selector": "div.paragraph__card > div.paragraph__column > div.paragraph__title > h3.mt-0",
+            "boundingRect": {
+              "top": 435,
+              "bottom": 520,
+              "left": 368,
+              "right": 665,
+              "width": 297,
+              "height": 85
+            },
+            "snippet": "<h3 class=\"mt-0 mb-0\">",
+            "nodeLabel": "Matching Student Scholarship",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-160-H5",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,6,FOOTER,0,DIV,0,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,H5",
+            "selector": "div.field > div.row > div.col-md-3 > h5",
+            "boundingRect": {
+              "top": 1398,
+              "bottom": 1438,
+              "left": 1023,
+              "right": 1326,
+              "width": 303,
+              "height": 41
+            },
+            "snippet": "<h5>",
+            "nodeLabel": "Contact Us",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]

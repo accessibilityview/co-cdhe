@@ -1,0 +1,886 @@
+[
+  {
+    "id": "aria-hidden-focus",
+    "title": "`[aria-hidden=\"true\"]` elements contain focusable descendents",
+    "description": "Focusable descendents within an `[aria-hidden=\"true\"]` element prevent those interactive elements from being available to users of assistive technologies like screen readers. [Learn more](https://web.dev/aria-hidden-focus/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "25-287-DIV",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,3,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV",
+            "selector": "div#slick-views-jumbo-sliders-block-1-2-slider > div.slick-list > div.slick-track > div#slick-slide01",
+            "boundingRect": {
+              "top": 385,
+              "bottom": 803,
+              "left": -396,
+              "right": 16,
+              "width": 412,
+              "height": 418
+            },
+            "snippet": "<div class=\"slick-slide\" data-slick-index=\"1\" aria-hidden=\"true\" style=\"width: 412px;\" role=\"tabpanel\" id=\"slick-slide01\" aria-describedby=\"slick-slide-control01\">",
+            "nodeLabel": "Notice of Data Incident\n\nThe Colorado Department of Higher Education (“CDHE”) i…",
+            "explanation": "Fix all of the following:\n  Focusable content should have tabindex='-1' or be removed from the DOM"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "25-159-A",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,3,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,A",
+                  "selector": "div.jumbo_slide__body > div.container > div > a.slider-link",
+                  "boundingRect": {
+                    "top": 764,
+                    "bottom": 784,
+                    "left": -339,
+                    "right": -257,
+                    "width": 82,
+                    "height": 21
+                  },
+                  "snippet": "<a href=\"https://cdhe.colorado.gov/notice-of-data-incident\" class=\"slider-link\" tabindex=\"0\">",
+                  "nodeLabel": "Read More\nabout Notice of Data Incident"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "aria-input-field-name",
+    "title": "ARIA input fields do not have accessible names",
+    "description": "When an input field doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "25-288-DIV",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,MAIN,0,DIV,2,DIV,0,SECTION,2,DIV,0,ARTICLE,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV,2,DIV",
+            "selector": "div.paragraph__column > div.field > div#x_010_testimonial > div.carousel-inner",
+            "boundingRect": {
+              "top": 3878,
+              "bottom": 5002,
+              "left": 34,
+              "right": 378,
+              "width": 344,
+              "height": 1124
+            },
+            "snippet": "<div class=\"carousel-inner\" role=\"listbox\">",
+            "nodeLabel": "CollegeInvest provides a variety of savings options that meet the needs of Colo…",
+            "explanation": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "aria-required-children",
+    "title": "Elements with an ARIA `[role]` that require children to contain a specific `[role]` are missing some or all of those required children.",
+    "description": "Some ARIA parent roles must contain specific child roles to perform their intended accessibility functions. [Learn more](https://web.dev/aria-required-children/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "25-288-DIV",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,MAIN,0,DIV,2,DIV,0,SECTION,2,DIV,0,ARTICLE,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV,2,DIV",
+            "selector": "div.paragraph__column > div.field > div#x_010_testimonial > div.carousel-inner",
+            "boundingRect": {
+              "top": 3878,
+              "bottom": 5002,
+              "left": 34,
+              "right": 378,
+              "width": 344,
+              "height": 1124
+            },
+            "snippet": "<div class=\"carousel-inner\" role=\"listbox\">",
+            "nodeLabel": "CollegeInvest provides a variety of savings options that meet the needs of Colo…",
+            "explanation": "Fix any of the following:\n  Required ARIA children role not present: group, option"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "aria-required-parent",
+    "title": "`[role]`s are not contained by their required parent element",
+    "description": "Some ARIA child roles must be contained by specific parent roles to properly perform their intended accessibility functions. [Learn more](https://web.dev/aria-required-parent/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "25-289-LI",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,MAIN,0,DIV,2,DIV,0,SECTION,2,DIV,0,ARTICLE,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV,1,OL,0,LI",
+            "selector": "div.field > div#x_010_testimonial > ol.carousel-indicators > li",
+            "boundingRect": {
+              "top": 5012,
+              "bottom": 5021,
+              "left": 194,
+              "right": 203,
+              "width": 9,
+              "height": 9
+            },
+            "snippet": "<li aria-controls=\"Previous Carousel\" class=\"\" data-slide-to=\"0\" data-target=\"#x_010_testimonial\" role=\"tab\">",
+            "nodeLabel": " ",
+            "explanation": "Fix any of the following:\n  Required ARIA parent role not present: tablist"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "25-290-LI",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,MAIN,0,DIV,2,DIV,0,SECTION,2,DIV,0,ARTICLE,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV,1,OL,1,LI",
+            "selector": "div.field > div#x_010_testimonial > ol.carousel-indicators > li",
+            "boundingRect": {
+              "top": 5012,
+              "bottom": 5021,
+              "left": 209,
+              "right": 218,
+              "width": 9,
+              "height": 9
+            },
+            "snippet": "<li aria-controls=\"Next Carousel\" data-slide-to=\"1\" data-target=\"#x_010_testimonial\" role=\"tab\" class=\"\">",
+            "nodeLabel": " ",
+            "explanation": "Fix any of the following:\n  Required ARIA parent role not present: tablist"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "aria-valid-attr-value",
+    "title": "`[aria-*]` attributes do not have valid values",
+    "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more](https://web.dev/aria-valid-attr-value/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "25-289-LI",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,MAIN,0,DIV,2,DIV,0,SECTION,2,DIV,0,ARTICLE,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV,1,OL,0,LI",
+            "selector": "div.field > div#x_010_testimonial > ol.carousel-indicators > li",
+            "boundingRect": {
+              "top": 5012,
+              "bottom": 5021,
+              "left": 194,
+              "right": 203,
+              "width": 9,
+              "height": 9
+            },
+            "snippet": "<li aria-controls=\"Previous Carousel\" class=\"\" data-slide-to=\"0\" data-target=\"#x_010_testimonial\" role=\"tab\">",
+            "nodeLabel": " ",
+            "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"Previous Carousel\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "25-290-LI",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,MAIN,0,DIV,2,DIV,0,SECTION,2,DIV,0,ARTICLE,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV,1,OL,1,LI",
+            "selector": "div.field > div#x_010_testimonial > ol.carousel-indicators > li",
+            "boundingRect": {
+              "top": 5012,
+              "bottom": 5021,
+              "left": 209,
+              "right": 218,
+              "width": 9,
+              "height": 9
+            },
+            "snippet": "<li aria-controls=\"Next Carousel\" data-slide-to=\"1\" data-target=\"#x_010_testimonial\" role=\"tab\" class=\"\">",
+            "nodeLabel": " ",
+            "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"Next Carousel\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "25-291-DIV",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,MAIN,0,DIV,2,DIV,0,SECTION,2,DIV,0,ARTICLE,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV",
+            "selector": "div.row > div.col-md-4 > div.card > div.card-body",
+            "boundingRect": {
+              "top": 2962,
+              "bottom": 3106,
+              "left": 40,
+              "right": 372,
+              "width": 332,
+              "height": 144
+            },
+            "snippet": "<div class=\"card-body focus-height vertical-center green\">",
+            "nodeLabel": "Students and Families\nWhether preparing for college or attending a postsecondar…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.28 (foreground color: #ffffff, background color: #6cbf49, font size: 13.2pt (17.6px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "25-190-A",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,MAIN,0,DIV,2,DIV,0,SECTION,2,DIV,0,ARTICLE,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,H3,0,A",
+            "selector": "div.card > div.card-body > h3.card-title > a",
+            "boundingRect": {
+              "top": 2975,
+              "bottom": 3001,
+              "left": 55,
+              "right": 292,
+              "width": 237,
+              "height": 26
+            },
+            "snippet": "<a data-uw-styling-context=\"true\" href=\"/students/preparing-for-college\">",
+            "nodeLabel": "Students and Families",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.28 (foreground color: #ffffff, background color: #6cbf49, font size: 17.2pt (22.88px), font weight: bold). Expected contrast ratio of 3:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "25-291-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,MAIN,0,DIV,2,DIV,0,SECTION,2,DIV,0,ARTICLE,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV",
+                  "selector": "div.row > div.col-md-4 > div.card > div.card-body",
+                  "boundingRect": {
+                    "top": 2962,
+                    "bottom": 3106,
+                    "left": 40,
+                    "right": 372,
+                    "width": 332,
+                    "height": 144
+                  },
+                  "snippet": "<div class=\"card-body focus-height vertical-center green\">",
+                  "nodeLabel": "Students and Families\nWhether preparing for college or attending a postsecondar…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "25-191-A",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,MAIN,0,DIV,2,DIV,0,SECTION,2,DIV,0,ARTICLE,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.card-body > div.row > div.col-md-6 > a",
+            "boundingRect": {
+              "top": 3123,
+              "bottom": 3144,
+              "left": 55,
+              "right": 208,
+              "width": 153,
+              "height": 21
+            },
+            "snippet": "<a data-uw-styling-context=\"true\" href=\"/students/preparing-for-college\" style=\"color:#fff;text-decoration:none;\">",
+            "nodeLabel": "I'm in High School >",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.34 (foreground color: #ffffff, background color: #509e2e, font size: 13.2pt (17.6px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "25-292-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,MAIN,0,DIV,2,DIV,0,SECTION,2,DIV,0,ARTICLE,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,2,DIV",
+                  "selector": "div.row > div.col-md-4 > div.card > div.card-body",
+                  "boundingRect": {
+                    "top": 3106,
+                    "bottom": 3189,
+                    "left": 40,
+                    "right": 372,
+                    "width": 332,
+                    "height": 83
+                  },
+                  "snippet": "<div class=\"card-body focus-height vertical-center dkgreen\">",
+                  "nodeLabel": "I'm in High School >\nI'm in College >"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "25-192-A",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,MAIN,0,DIV,2,DIV,0,SECTION,2,DIV,0,ARTICLE,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,2,DIV,0,DIV,1,DIV,0,A",
+            "selector": "div.card-body > div.row > div.col-md-6 > a",
+            "boundingRect": {
+              "top": 3150,
+              "bottom": 3170,
+              "left": 237,
+              "right": 357,
+              "width": 120,
+              "height": 21
+            },
+            "snippet": "<a data-uw-styling-context=\"true\" href=\"/students/attending-college/get-credit-for-what-you-already-know\" style=\"color:#fff;text-decoration:none;\">",
+            "nodeLabel": "I'm in College >",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.34 (foreground color: #ffffff, background color: #509e2e, font size: 13.2pt (17.6px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "25-292-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,MAIN,0,DIV,2,DIV,0,SECTION,2,DIV,0,ARTICLE,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,2,DIV",
+                  "selector": "div.row > div.col-md-4 > div.card > div.card-body",
+                  "boundingRect": {
+                    "top": 3106,
+                    "bottom": 3189,
+                    "left": 40,
+                    "right": 372,
+                    "width": 332,
+                    "height": 83
+                  },
+                  "snippet": "<div class=\"card-body focus-height vertical-center dkgreen\">",
+                  "nodeLabel": "I'm in High School >\nI'm in College >"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "25-293-P",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,MAIN,0,DIV,2,DIV,0,SECTION,2,DIV,0,ARTICLE,0,DIV,5,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,UL,1,LI,0,DIV,0,DIV,1,DIV,0,P",
+            "selector": "div.testimonial-slider-content > div.row > div.col-md-10 > p.testimonial",
+            "boundingRect": {
+              "top": 5136,
+              "bottom": 5200,
+              "left": 163,
+              "right": 388,
+              "width": 225,
+              "height": 63
+            },
+            "snippet": "<p class=\"testimonial\">",
+            "nodeLabel": "\"You are never too old to go back to school.\"",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.94 (foreground color: #7f92a7, background color: #f5f5f5, font size: 15.8pt (21.12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "25-294-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,MAIN,0,DIV,2,DIV,0,SECTION,2,DIV,0,ARTICLE,0,DIV,5,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,UL,1,LI,0,DIV,0,DIV",
+                  "selector": "ul.slider > li > div.testimonial-slider-content > div.row",
+                  "boundingRect": {
+                    "top": 5116,
+                    "bottom": 5298,
+                    "left": 9,
+                    "right": 403,
+                    "width": 394,
+                    "height": 181
+                  },
+                  "snippet": "<div class=\"row\" style=\"background-color: rgb(245, 245, 245); display: flex; align-items: center;\">",
+                  "nodeLabel": "\"You are never too old to go back to school.\"\n\n— Donna McGee\n\nColorado Mesa Uni…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "25-295-P",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,MAIN,0,DIV,2,DIV,0,SECTION,2,DIV,0,ARTICLE,0,DIV,5,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,UL,1,LI,0,DIV,0,DIV,1,DIV,1,P",
+            "selector": "div.testimonial-slider-content > div.row > div.col-md-10 > p.name",
+            "boundingRect": {
+              "top": 5212,
+              "bottom": 5238,
+              "left": 163,
+              "right": 388,
+              "width": 225,
+              "height": 26
+            },
+            "snippet": "<p class=\"name\">",
+            "nodeLabel": "— Donna McGee",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.43 (foreground color: #9f9f9f, background color: #f5f5f5, font size: 13.2pt (17.6px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "25-294-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,MAIN,0,DIV,2,DIV,0,SECTION,2,DIV,0,ARTICLE,0,DIV,5,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,UL,1,LI,0,DIV,0,DIV",
+                  "selector": "ul.slider > li > div.testimonial-slider-content > div.row",
+                  "boundingRect": {
+                    "top": 5116,
+                    "bottom": 5298,
+                    "left": 9,
+                    "right": 403,
+                    "width": 394,
+                    "height": 181
+                  },
+                  "snippet": "<div class=\"row\" style=\"background-color: rgb(245, 245, 245); display: flex; align-items: center;\">",
+                  "nodeLabel": "\"You are never too old to go back to school.\"\n\n— Donna McGee\n\nColorado Mesa Uni…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "25-296-P",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,MAIN,0,DIV,2,DIV,0,SECTION,2,DIV,0,ARTICLE,0,DIV,5,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,UL,1,LI,0,DIV,0,DIV,1,DIV,2,P",
+            "selector": "div.testimonial-slider-content > div.row > div.col-md-10 > p.testimonial-title",
+            "boundingRect": {
+              "top": 5238,
+              "bottom": 5286,
+              "left": 180,
+              "right": 388,
+              "width": 208,
+              "height": 48
+            },
+            "snippet": "<p class=\"testimonial-title\">",
+            "nodeLabel": "Colorado Mesa University Student",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.43 (foreground color: #9f9f9f, background color: #f5f5f5, font size: 11.9pt (15.84px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "25-294-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,MAIN,0,DIV,2,DIV,0,SECTION,2,DIV,0,ARTICLE,0,DIV,5,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,UL,1,LI,0,DIV,0,DIV",
+                  "selector": "ul.slider > li > div.testimonial-slider-content > div.row",
+                  "boundingRect": {
+                    "top": 5116,
+                    "bottom": 5298,
+                    "left": 9,
+                    "right": 403,
+                    "width": 394,
+                    "height": 181
+                  },
+                  "snippet": "<div class=\"row\" style=\"background-color: rgb(245, 245, 245); display: flex; align-items: center;\">",
+                  "nodeLabel": "\"You are never too old to go back to school.\"\n\n— Donna McGee\n\nColorado Mesa Uni…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "25-286-INPUT",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,6,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,FORM,0,DIV,0,DIV,1,INPUT",
+            "selector": "form#mc-embedded-subscribe-form > div#mc_embed_signup_scroll > div.mc-field-group > input#mc-embedded-subscribe",
+            "boundingRect": {
+              "top": 5918,
+              "bottom": 5950,
+              "left": 349,
+              "right": 388,
+              "width": 39,
+              "height": 32
+            },
+            "snippet": "<input class=\"button\" id=\"mc-embedded-subscribe\" name=\"subscribe\" style=\"background-color:#6cbf49;color:#fff;border:none;padding:3px 15px;\" type=\"submit\" value=\">",
+            "nodeLabel": "form#mc-embedded-subscribe-form > div#mc_embed_signup_scroll > div.mc-field-group > input#mc-embedded-subscribe",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.28 (foreground color: #ffffff, background color: #6cbf49, font size: 13.2pt (17.6px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 8
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "25-297-H3",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,MAIN,0,DIV,2,DIV,0,SECTION,2,DIV,0,ARTICLE,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H3",
+            "selector": "div.paragraph__card > div.paragraph__column > div.paragraph__title > h3",
+            "boundingRect": {
+              "top": 879,
+              "bottom": 927,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 48
+            },
+            "snippet": "<h3>",
+            "nodeLabel": "News",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "25-298-H5",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,MAIN,0,DIV,2,DIV,0,SECTION,2,DIV,0,ARTICLE,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,H5",
+            "selector": "div.paragraph__column > div.field > div.field > h5",
+            "boundingRect": {
+              "top": 1927,
+              "bottom": 1949,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 22
+            },
+            "snippet": "<h5 style=\"font-family: &quot;museo-sans&quot;,sans-serif;;font-weight: 400 !important;\">",
+            "nodeLabel": "Student and Academic Affairs",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "25-299-H5",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,6,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,H5",
+            "selector": "div.field > div.row > div.col-md-3 > h5",
+            "boundingRect": {
+              "top": 6160,
+              "bottom": 6204,
+              "left": 294,
+              "right": 388,
+              "width": 94,
+              "height": 43
+            },
+            "snippet": "<h5>",
+            "nodeLabel": "Contact Us",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 3
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "25-205-A",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,MAIN,0,DIV,2,DIV,0,SECTION,2,DIV,0,ARTICLE,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV,5,A",
+            "selector": "div.paragraph__column > div.field > div#x_010_testimonial > a.carousel-control-prev",
+            "boundingRect": {
+              "top": 3781,
+              "bottom": 3811,
+              "left": 317,
+              "right": 347,
+              "width": 30,
+              "height": 30
+            },
+            "snippet": "<a class=\"carousel-control-prev\" data-slide=\"prev\" href=\"#x_010_testimonial\">",
+            "nodeLabel": "div.paragraph__column > div.field > div#x_010_testimonial > a.carousel-control-prev",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "25-300-OL",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,MAIN,0,DIV,2,DIV,0,SECTION,2,DIV,0,ARTICLE,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV,1,OL",
+            "selector": "div.paragraph__column > div.field > div#x_010_testimonial > ol.carousel-indicators",
+            "boundingRect": {
+              "top": 5012,
+              "bottom": 5032,
+              "left": 24,
+              "right": 388,
+              "width": 364,
+              "height": 20
+            },
+            "snippet": "<ol class=\"carousel-indicators\">",
+            "nodeLabel": "   ",
+            "explanation": "Fix all of the following:\n  List element has direct children with a role that is not allowed: tab"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "25-289-LI",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,MAIN,0,DIV,2,DIV,0,SECTION,2,DIV,0,ARTICLE,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV,1,OL,0,LI",
+                  "selector": "div.field > div#x_010_testimonial > ol.carousel-indicators > li",
+                  "boundingRect": {
+                    "top": 5012,
+                    "bottom": 5021,
+                    "left": 194,
+                    "right": 203,
+                    "width": 9,
+                    "height": 9
+                  },
+                  "snippet": "<li aria-controls=\"Previous Carousel\" class=\"\" data-slide-to=\"0\" data-target=\"#x_010_testimonial\" role=\"tab\">",
+                  "nodeLabel": " "
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "25-290-LI",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,MAIN,0,DIV,2,DIV,0,SECTION,2,DIV,0,ARTICLE,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV,1,OL,1,LI",
+                  "selector": "div.field > div#x_010_testimonial > ol.carousel-indicators > li",
+                  "boundingRect": {
+                    "top": 5012,
+                    "bottom": 5021,
+                    "left": 209,
+                    "right": 218,
+                    "width": 9,
+                    "height": 9
+                  },
+                  "snippet": "<li aria-controls=\"Next Carousel\" data-slide-to=\"1\" data-target=\"#x_010_testimonial\" role=\"tab\" class=\"\">",
+                  "nodeLabel": " "
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

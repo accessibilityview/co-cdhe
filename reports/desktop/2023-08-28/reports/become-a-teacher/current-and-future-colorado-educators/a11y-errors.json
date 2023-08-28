@@ -1,0 +1,985 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-158-DIV",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,H3,0,DIV",
+            "selector": "div.paragraph__column > div.paragraph__title > h3.mt-0 > div.field",
+            "boundingRect": {
+              "top": 2098,
+              "bottom": 2183,
+              "left": 695,
+              "right": 992,
+              "width": 297,
+              "height": 85
+            },
+            "snippet": "<div class=\"field field--name-field-card-title field--type-string field--label-hidden …\">",
+            "nodeLabel": "Student Educator Test Stipend Program",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.28 (foreground color: #ffffff, background color: #6cbf49, font size: 17.3pt (23px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-159-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.paragraph--type--bp-columns__3col > div.paragraph__card > div.paragraph__column > div.paragraph__title",
+                  "boundingRect": {
+                    "top": 2098,
+                    "bottom": 2183,
+                    "left": 695,
+                    "right": 992,
+                    "width": 297,
+                    "height": 85
+                  },
+                  "snippet": "<div class=\"paragraph__title title_color color__brand-tree-green  \">",
+                  "nodeLabel": "Student Educator Test Stipend Program"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-160-P",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,P",
+            "selector": "div.paragraph__card > div.paragraph__column > div.field > p",
+            "boundingRect": {
+              "top": 2203,
+              "bottom": 2441,
+              "left": 704,
+              "right": 983,
+              "width": 279,
+              "height": 238
+            },
+            "snippet": "<p>",
+            "nodeLabel": "The educator test stipend program awards stipend money to approved preparation …",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.28 (foreground color: #ffffff, background color: #6cbf49, font size: 13.2pt (17.6px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-161-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV",
+                  "selector": "div.paragraph__column--container-wrapper > div.container > div.paragraph--type--bp-columns__3col > div.paragraph__card",
+                  "boundingRect": {
+                    "top": 2098,
+                    "bottom": 2874,
+                    "left": 695,
+                    "right": 992,
+                    "width": 297,
+                    "height": 775
+                  },
+                  "snippet": "<div class=\"paragraph__card paragraph paragraph--type--card-basic card_no-border parag…\">",
+                  "nodeLabel": "Student Educator Test Stipend Program\n\nThe educator test stipend program awards…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-100-A",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,P,1,A",
+            "selector": "div.paragraph__column > div.field > p > a",
+            "boundingRect": {
+              "top": 2390,
+              "bottom": 2411,
+              "left": 862,
+              "right": 962,
+              "width": 100,
+              "height": 21
+            },
+            "snippet": "<a href=\"https://cdhe.colorado.gov/sites/highered/files/documents/DHE%20Educator%20…\" target=\"_blank\">",
+            "nodeLabel": "fact sheet\n(opens in new window)",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.28 (foreground color: #ffffff, background color: #6cbf49, font size: 13.2pt (17.6px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-161-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV",
+                  "selector": "div.paragraph__column--container-wrapper > div.container > div.paragraph--type--bp-columns__3col > div.paragraph__card",
+                  "boundingRect": {
+                    "top": 2098,
+                    "bottom": 2874,
+                    "left": 695,
+                    "right": 992,
+                    "width": 297,
+                    "height": 775
+                  },
+                  "snippet": "<div class=\"paragraph__card paragraph paragraph--type--card-basic card_no-border parag…\">",
+                  "nodeLabel": "Student Educator Test Stipend Program\n\nThe educator test stipend program awards…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-101-A",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,P,3,A",
+            "selector": "div.paragraph__column > div.field > p > a",
+            "boundingRect": {
+              "top": 2417,
+              "bottom": 2437,
+              "left": 704,
+              "right": 887,
+              "width": 183,
+              "height": 21
+            },
+            "snippet": "<a data-entity-substitution=\"file\" data-entity-type=\"file\" data-entity-uuid=\"624cb11d-2c18-46ac-8bf5-1a0369c15857\" href=\"https://cdhe.colorado.gov/sites/highered/files/Teacher%20School%20Counselo…\">",
+            "nodeLabel": "Learn more in the FAQ.",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.28 (foreground color: #ffffff, background color: #6cbf49, font size: 13.2pt (17.6px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-161-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV",
+                  "selector": "div.paragraph__column--container-wrapper > div.container > div.paragraph--type--bp-columns__3col > div.paragraph__card",
+                  "boundingRect": {
+                    "top": 2098,
+                    "bottom": 2874,
+                    "left": 695,
+                    "right": 992,
+                    "width": 297,
+                    "height": 775
+                  },
+                  "snippet": "<div class=\"paragraph__card paragraph paragraph--type--card-basic card_no-border parag…\">",
+                  "nodeLabel": "Student Educator Test Stipend Program\n\nThe educator test stipend program awards…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-162-DIV",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,5,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,H3,0,DIV",
+            "selector": "div.paragraph__column > div.paragraph__title > h3.mt-0 > div.field",
+            "boundingRect": {
+              "top": 2894,
+              "bottom": 2979,
+              "left": 695,
+              "right": 992,
+              "width": 297,
+              "height": 85
+            },
+            "snippet": "<div class=\"field field--name-field-card-title field--type-string field--label-hidden …\">",
+            "nodeLabel": "Colorado Free ECE Coursework",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.28 (foreground color: #ffffff, background color: #6cbf49, font size: 17.3pt (23px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-163-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,5,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.paragraph--type--bp-columns__3col > div.paragraph__card > div.paragraph__column > div.paragraph__title",
+                  "boundingRect": {
+                    "top": 2894,
+                    "bottom": 2979,
+                    "left": 695,
+                    "right": 992,
+                    "width": 297,
+                    "height": 85
+                  },
+                  "snippet": "<div class=\"paragraph__title title_color color__brand-tree-green  \">",
+                  "nodeLabel": "Colorado Free ECE Coursework"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-164-P",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,5,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,P",
+            "selector": "div.paragraph__card > div.paragraph__column > div.field > p",
+            "boundingRect": {
+              "top": 2999,
+              "bottom": 3474,
+              "left": 704,
+              "right": 983,
+              "width": 279,
+              "height": 475
+            },
+            "snippet": "<p>",
+            "nodeLabel": "In partnership with the Office of Early Childhood within the Colorado Departmen…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.28 (foreground color: #ffffff, background color: #6cbf49, font size: 13.2pt (17.6px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-165-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,5,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV",
+                  "selector": "div.paragraph__column--container-wrapper > div.container > div.paragraph--type--bp-columns__3col > div.paragraph__card",
+                  "boundingRect": {
+                    "top": 2894,
+                    "bottom": 4812,
+                    "left": 695,
+                    "right": 992,
+                    "width": 297,
+                    "height": 1919
+                  },
+                  "snippet": "<div class=\"paragraph__card paragraph paragraph--type--card-basic card_no-border parag…\">",
+                  "nodeLabel": "Colorado Free ECE Coursework\n\nIn partnership with the Office of Early Childhood…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-166-P",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,5,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,P",
+            "selector": "div.paragraph__card > div.paragraph__column > div.field > p",
+            "boundingRect": {
+              "top": 3486,
+              "bottom": 3539,
+              "left": 704,
+              "right": 983,
+              "width": 279,
+              "height": 53
+            },
+            "snippet": "<p>",
+            "nodeLabel": "ECE 101 & 103 Free Coursework Information: English\n(opens in new window)\n/Spani…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.28 (foreground color: #ffffff, background color: #6cbf49, font size: 13.2pt (17.6px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-165-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,5,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV",
+                  "selector": "div.paragraph__column--container-wrapper > div.container > div.paragraph--type--bp-columns__3col > div.paragraph__card",
+                  "boundingRect": {
+                    "top": 2894,
+                    "bottom": 4812,
+                    "left": 695,
+                    "right": 992,
+                    "width": 297,
+                    "height": 1919
+                  },
+                  "snippet": "<div class=\"paragraph__card paragraph paragraph--type--card-basic card_no-border parag…\">",
+                  "nodeLabel": "Colorado Free ECE Coursework\n\nIn partnership with the Office of Early Childhood…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-106-A",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,5,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,P,1,A",
+            "selector": "div.paragraph__column > div.field > p > a",
+            "boundingRect": {
+              "top": 3515,
+              "bottom": 3535,
+              "left": 808,
+              "right": 883,
+              "width": 75,
+              "height": 21
+            },
+            "snippet": "<a data-entity-substitution=\"file\" data-entity-type=\"file\" data-entity-uuid=\"b5bff46d-52ca-4ddf-a014-b3c176b7db1a\" href=\"https://cdhe.colorado.gov/sites/highered/files/documents/ECE%20101_103%20F…\" target=\"_blank\">",
+            "nodeLabel": "English\n(opens in new window)",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.28 (foreground color: #ffffff, background color: #6cbf49, font size: 13.2pt (17.6px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-165-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,5,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV",
+                  "selector": "div.paragraph__column--container-wrapper > div.container > div.paragraph--type--bp-columns__3col > div.paragraph__card",
+                  "boundingRect": {
+                    "top": 2894,
+                    "bottom": 4812,
+                    "left": 695,
+                    "right": 992,
+                    "width": 297,
+                    "height": 1919
+                  },
+                  "snippet": "<div class=\"paragraph__card paragraph paragraph--type--card-basic card_no-border parag…\">",
+                  "nodeLabel": "Colorado Free ECE Coursework\n\nIn partnership with the Office of Early Childhood…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-107-A",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,5,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,P,3,A",
+            "selector": "div.paragraph__column > div.field > p > a",
+            "boundingRect": {
+              "top": 3515,
+              "bottom": 3535,
+              "left": 892,
+              "right": 971,
+              "width": 79,
+              "height": 21
+            },
+            "snippet": "<a data-entity-substitution=\"canonical\" data-entity-type=\"media\" data-entity-uuid=\"e858ed70-129e-457b-9354-3e590ca7b925\" href=\"/media/19526\" target=\"_blank\">",
+            "nodeLabel": "Spanish\n(opens in new window)",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.28 (foreground color: #ffffff, background color: #6cbf49, font size: 13.2pt (17.6px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-165-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,5,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV",
+                  "selector": "div.paragraph__column--container-wrapper > div.container > div.paragraph--type--bp-columns__3col > div.paragraph__card",
+                  "boundingRect": {
+                    "top": 2894,
+                    "bottom": 4812,
+                    "left": 695,
+                    "right": 992,
+                    "width": 297,
+                    "height": 1919
+                  },
+                  "snippet": "<div class=\"paragraph__card paragraph paragraph--type--card-basic card_no-border parag…\">",
+                  "nodeLabel": "Colorado Free ECE Coursework\n\nIn partnership with the Office of Early Childhood…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-167-DIV",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,6,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H3,0,DIV",
+            "selector": "div.paragraph__column > div.paragraph__title > h3.mt-0 > div.field",
+            "boundingRect": {
+              "top": 4832,
+              "bottom": 4883,
+              "left": 368,
+              "right": 1320,
+              "width": 953,
+              "height": 51
+            },
+            "snippet": "<div class=\"field field--name-field-card-title field--type-string field--label-hidden …\">",
+            "nodeLabel": "National Board Teacher Certification",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.88 (foreground color: #ffffff, background color: #47a1cf, font size: 17.3pt (23px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-168-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,6,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.paragraph--type--bp-columns__1col > div.paragraph__card > div.paragraph__column > div.paragraph__title",
+                  "boundingRect": {
+                    "top": 4832,
+                    "bottom": 4883,
+                    "left": 368,
+                    "right": 1320,
+                    "width": 953,
+                    "height": 51
+                  },
+                  "snippet": "<div class=\"paragraph__title title_color color__sky-blue  \">",
+                  "nodeLabel": "National Board Teacher Certification"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-169-P",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,6,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,P",
+            "selector": "div.paragraph__card > div.paragraph__column > div.field > p",
+            "boundingRect": {
+              "top": 4903,
+              "bottom": 5008,
+              "left": 377,
+              "right": 1311,
+              "width": 935,
+              "height": 106
+            },
+            "snippet": "<p>",
+            "nodeLabel": "In an effort to address teacher shortages in the state, the Colorado Department…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.88 (foreground color: #ffffff, background color: #47a1cf, font size: 13.2pt (17.6px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-170-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,6,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.paragraph__column--container-wrapper > div.container > div.paragraph--type--bp-columns__1col > div.paragraph__card",
+                  "boundingRect": {
+                    "top": 4832,
+                    "bottom": 5546,
+                    "left": 368,
+                    "right": 1320,
+                    "width": 953,
+                    "height": 714
+                  },
+                  "snippet": "<div class=\"paragraph__card paragraph paragraph--type--card-basic card_no-border parag…\">",
+                  "nodeLabel": "National Board Teacher Certification\n\nIn an effort to address teacher shortages…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-113-A",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,6,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,P,1,A",
+            "selector": "div.paragraph__column > div.field > p > a",
+            "boundingRect": {
+              "top": 4985,
+              "bottom": 5005,
+              "left": 468,
+              "right": 649,
+              "width": 181,
+              "height": 21
+            },
+            "snippet": "<a href=\"https://cdhe.colorado.gov/sites/highered/files/2020-03/dhe-national-board-…\" target=\"_blank\">",
+            "nodeLabel": "Read the fact sheet.\n(opens in new window)",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.88 (foreground color: #ffffff, background color: #47a1cf, font size: 13.2pt (17.6px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-170-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,6,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.paragraph__column--container-wrapper > div.container > div.paragraph--type--bp-columns__1col > div.paragraph__card",
+                  "boundingRect": {
+                    "top": 4832,
+                    "bottom": 5546,
+                    "left": 368,
+                    "right": 1320,
+                    "width": 953,
+                    "height": 714
+                  },
+                  "snippet": "<div class=\"paragraph__card paragraph paragraph--type--card-basic card_no-border parag…\">",
+                  "nodeLabel": "National Board Teacher Certification\n\nIn an effort to address teacher shortages…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-171-P",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,6,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,3,P",
+            "selector": "div.paragraph__card > div.paragraph__column > div.field > p",
+            "boundingRect": {
+              "top": 5393,
+              "bottom": 5525,
+              "left": 377,
+              "right": 1311,
+              "width": 935,
+              "height": 132
+            },
+            "snippet": "<p>",
+            "nodeLabel": "NBCT Stipends: Selected members of a Colorado Rural National Board cohort can r…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.88 (foreground color: #ffffff, background color: #47a1cf, font size: 13.2pt (17.6px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-170-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,6,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.paragraph__column--container-wrapper > div.container > div.paragraph--type--bp-columns__1col > div.paragraph__card",
+                  "boundingRect": {
+                    "top": 4832,
+                    "bottom": 5546,
+                    "left": 368,
+                    "right": 1320,
+                    "width": 953,
+                    "height": 714
+                  },
+                  "snippet": "<div class=\"paragraph__card paragraph paragraph--type--card-basic card_no-border parag…\">",
+                  "nodeLabel": "National Board Teacher Certification\n\nIn an effort to address teacher shortages…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-172-STRONG",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,6,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,3,P,0,STRONG",
+            "selector": "div.paragraph__column > div.field > p > strong",
+            "boundingRect": {
+              "top": 5396,
+              "bottom": 5416,
+              "left": 377,
+              "right": 501,
+              "width": 125,
+              "height": 21
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "NBCT Stipends:",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.88 (foreground color: #ffffff, background color: #47a1cf, font size: 13.2pt (17.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-170-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,6,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.paragraph__column--container-wrapper > div.container > div.paragraph--type--bp-columns__1col > div.paragraph__card",
+                  "boundingRect": {
+                    "top": 4832,
+                    "bottom": 5546,
+                    "left": 368,
+                    "right": 1320,
+                    "width": 953,
+                    "height": 714
+                  },
+                  "snippet": "<div class=\"paragraph__card paragraph paragraph--type--card-basic card_no-border parag…\">",
+                  "nodeLabel": "National Board Teacher Certification\n\nIn an effort to address teacher shortages…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-114-A",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,6,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,3,P,2,A",
+            "selector": "div.paragraph__column > div.field > p > a",
+            "boundingRect": {
+              "top": 5475,
+              "bottom": 5495,
+              "left": 813,
+              "right": 1119,
+              "width": 306,
+              "height": 21
+            },
+            "snippet": "<a href=\"http://www.unco.edu/colorado-center-for-rural-education\" target=\"_blank\">",
+            "nodeLabel": "Colorado Center for Rural Education\n(opens in new window)",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.88 (foreground color: #ffffff, background color: #47a1cf, font size: 13.2pt (17.6px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-170-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,6,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.paragraph__column--container-wrapper > div.container > div.paragraph--type--bp-columns__1col > div.paragraph__card",
+                  "boundingRect": {
+                    "top": 4832,
+                    "bottom": 5546,
+                    "left": 368,
+                    "right": 1320,
+                    "width": 953,
+                    "height": 714
+                  },
+                  "snippet": "<div class=\"paragraph__card paragraph paragraph--type--card-basic card_no-border parag…\">",
+                  "nodeLabel": "National Board Teacher Certification\n\nIn an effort to address teacher shortages…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-115-A",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,6,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,3,P,4,A",
+            "selector": "div.paragraph__column > div.field > p > a",
+            "boundingRect": {
+              "top": 5475,
+              "bottom": 5522,
+              "left": 377,
+              "right": 1263,
+              "width": 886,
+              "height": 47
+            },
+            "snippet": "<a href=\"mailto:robert.fulton@unco.edu\">",
+            "nodeLabel": "Robert Fulton",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.88 (foreground color: #ffffff, background color: #47a1cf, font size: 13.2pt (17.6px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-170-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,6,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.paragraph__column--container-wrapper > div.container > div.paragraph--type--bp-columns__1col > div.paragraph__card",
+                  "boundingRect": {
+                    "top": 4832,
+                    "bottom": 5546,
+                    "left": 368,
+                    "right": 1320,
+                    "width": 953,
+                    "height": 714
+                  },
+                  "snippet": "<div class=\"paragraph__card paragraph paragraph--type--card-basic card_no-border parag…\">",
+                  "nodeLabel": "National Board Teacher Certification\n\nIn an effort to address teacher shortages…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 16
+  },
+  {
+    "id": "frame-title",
+    "title": "`<frame>` or `<iframe>` elements do not have a title",
+    "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more](https://web.dev/frame-title/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-173-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,P,0,IFRAME",
+            "selector": "div.paragraph__column > div.field > p.text-align-center > iframe",
+            "boundingRect": {
+              "top": 1303,
+              "bottom": 1618,
+              "left": 564,
+              "right": 1124,
+              "width": 560,
+              "height": 315
+            },
+            "snippet": "<iframe allow=\"autoplay; encrypted-media\" allowfullscreen=\"\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/LMzYIs6qhQw\" width=\"560\">",
+            "nodeLabel": "div.paragraph__column > div.field > p.text-align-center > iframe",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-174-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,6,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,P,0,IFRAME",
+            "selector": "div.paragraph__column > div.field > p > iframe",
+            "boundingRect": {
+              "top": 5020,
+              "bottom": 5335,
+              "left": 564,
+              "right": 1124,
+              "width": 560,
+              "height": 315
+            },
+            "snippet": "<iframe allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/vIm1E8O9Kzk\" width=\"560\">",
+            "nodeLabel": "div.paragraph__column > div.field > p > iframe",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag241",
+          "wcag412",
+          "section508",
+          "section508.22.i"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-175-H5",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,FOOTER,0,DIV,0,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,H5",
+            "selector": "div.field > div.row > div.col-md-3 > h5",
+            "boundingRect": {
+              "top": 5643,
+              "bottom": 5683,
+              "left": 1023,
+              "right": 1326,
+              "width": 303,
+              "height": 41
+            },
+            "snippet": "<h5>",
+            "nodeLabel": "Contact Us",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-176-UL",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,UL",
+            "selector": "div.paragraph__card > div.paragraph__column > div.field > ul",
+            "boundingRect": {
+              "top": 1781,
+              "bottom": 1940,
+              "left": 377,
+              "right": 1311,
+              "width": 935,
+              "height": 158
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "Obtaining Colorado licensure\n(opens in new window)\n\n\nTeaching in Colorado\n(open…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-177-BR",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,UL,1,BR",
+                  "selector": "div.paragraph__column > div.field > ul > br",
+                  "boundingRect": {
+                    "top": 1810,
+                    "bottom": 1831,
+                    "left": 417,
+                    "right": 417,
+                    "width": 0,
+                    "height": 21
+                  },
+                  "snippet": "<br>",
+                  "nodeLabel": "div.paragraph__column > div.field > ul > br"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-178-BR",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,UL,3,BR",
+                  "selector": "div.paragraph__column > div.field > ul > br",
+                  "boundingRect": {
+                    "top": 1863,
+                    "bottom": 1883,
+                    "left": 417,
+                    "right": 417,
+                    "width": 0,
+                    "height": 21
+                  },
+                  "snippet": "<br>",
+                  "nodeLabel": "div.paragraph__column > div.field > ul > br"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-179-UL",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,5,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,2,UL",
+            "selector": "div.paragraph__card > div.paragraph__column > div.field > ul",
+            "boundingRect": {
+              "top": 3419,
+              "bottom": 4791,
+              "left": 1031,
+              "right": 1311,
+              "width": 279,
+              "height": 1373
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "Stipends for teachers pursuing concurrent enrollment qualifications: Current K-…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-180-BR",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,5,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,2,UL,1,BR",
+                  "selector": "div.paragraph__column > div.field > ul > br",
+                  "boundingRect": {
+                    "top": 3817,
+                    "bottom": 3838,
+                    "left": 1071,
+                    "right": 1071,
+                    "width": 0,
+                    "height": 21
+                  },
+                  "snippet": "<br>",
+                  "nodeLabel": "div.paragraph__column > div.field > ul > br"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-181-BR",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,5,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,2,UL,3,BR",
+                  "selector": "div.paragraph__column > div.field > ul > br",
+                  "boundingRect": {
+                    "top": 4239,
+                    "bottom": 4260,
+                    "left": 1071,
+                    "right": 1071,
+                    "width": 0,
+                    "height": 21
+                  },
+                  "snippet": "<br>",
+                  "nodeLabel": "div.paragraph__column > div.field > ul > br"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]

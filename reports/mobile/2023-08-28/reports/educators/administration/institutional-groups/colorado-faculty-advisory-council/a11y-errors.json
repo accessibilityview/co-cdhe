@@ -1,0 +1,219 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-298-SPAN",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DL,2,DT,1,A,0,SPAN",
+            "selector": "dl.styled > dt > a.ckeditor-accordion-toggler > span",
+            "boundingRect": {
+              "top": 1552,
+              "bottom": 1602,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 50
+            },
+            "snippet": "<span style=\"background-color:#6cbf49;\">",
+            "nodeLabel": "Council Documents",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.28 (foreground color: #ffffff, background color: #6cbf49, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-299-SPAN",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DL,6,DT,1,A,0,SPAN",
+            "selector": "dl.styled > dt > a.ckeditor-accordion-toggler > span",
+            "boundingRect": {
+              "top": 1684,
+              "bottom": 1734,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 50
+            },
+            "snippet": "<span style=\"background-color:#47a1cf;\">",
+            "nodeLabel": "2022 Meetings",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.88 (foreground color: #ffffff, background color: #47a1cf, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-300-SPAN",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DL,10,DT,1,A,0,SPAN",
+            "selector": "dl.styled > dt > a.ckeditor-accordion-toggler > span",
+            "boundingRect": {
+              "top": 1816,
+              "bottom": 1866,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 50
+            },
+            "snippet": "<span style=\"background-color:#6cbf49;\">",
+            "nodeLabel": "2020 Meetings",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.28 (foreground color: #ffffff, background color: #6cbf49, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-301-SPAN",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DL,14,DT,1,A,0,SPAN",
+            "selector": "dl.styled > dt > a.ckeditor-accordion-toggler > span",
+            "boundingRect": {
+              "top": 1948,
+              "bottom": 1998,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 50
+            },
+            "snippet": "<span style=\"background-color:#47a1cf;\">",
+            "nodeLabel": "2018 Meetings",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.88 (foreground color: #ffffff, background color: #47a1cf, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-302-SPAN",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DL,18,DT,1,A,0,SPAN",
+            "selector": "dl.styled > dt > a.ckeditor-accordion-toggler > span",
+            "boundingRect": {
+              "top": 2080,
+              "bottom": 2130,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 50
+            },
+            "snippet": "<span style=\"background-color:#6cbf49;\">",
+            "nodeLabel": "2016 Meetings",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.28 (foreground color: #ffffff, background color: #6cbf49, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-303-SPAN",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DL,22,DT,1,A,0,SPAN",
+            "selector": "dl.styled > dt > a.ckeditor-accordion-toggler > span",
+            "boundingRect": {
+              "top": 2212,
+              "bottom": 2262,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 50
+            },
+            "snippet": "<span style=\"background-color:#47a1cf;\">",
+            "nodeLabel": "2014 Meetings",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.88 (foreground color: #ffffff, background color: #47a1cf, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-304-SPAN",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DL,26,DT,1,A,0,SPAN",
+            "selector": "dl.styled > dt > a.ckeditor-accordion-toggler > span",
+            "boundingRect": {
+              "top": 2344,
+              "bottom": 2394,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 50
+            },
+            "snippet": "<span style=\"background-color:#6cbf49;\">",
+            "nodeLabel": "2012 Meetings",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.28 (foreground color: #ffffff, background color: #6cbf49, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 7
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-305-H5",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,6,FOOTER,0,DIV,0,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,H5",
+            "selector": "div.field > div.row > div.col-md-3 > h5",
+            "boundingRect": {
+              "top": 2579,
+              "bottom": 2622,
+              "left": 302,
+              "right": 388,
+              "width": 86,
+              "height": 43
+            },
+            "snippet": "<h5>",
+            "nodeLabel": "Contact Us",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

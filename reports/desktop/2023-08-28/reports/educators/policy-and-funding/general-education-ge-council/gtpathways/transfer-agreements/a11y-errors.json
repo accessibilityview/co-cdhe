@@ -1,0 +1,128 @@
+[
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-161-H5",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,FOOTER,0,DIV,0,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,H5",
+            "selector": "div.field > div.row > div.col-md-3 > h5",
+            "boundingRect": {
+              "top": 2551,
+              "bottom": 2591,
+              "left": 1023,
+              "right": 1326,
+              "width": 303,
+              "height": 41
+            },
+            "snippet": "<h5>",
+            "nodeLabel": "Contact Us",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-162-UL",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,0,DIV,14,UL",
+            "selector": "article.page > div > div.field > ul",
+            "boundingRect": {
+              "top": 1819,
+              "bottom": 2452,
+              "left": 353,
+              "right": 1335,
+              "width": 983,
+              "height": 634
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "Colorado Revised Statutes\n(opens in new window)\n: The most recently updated ver…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-163-BR",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,0,DIV,14,UL,1,BR",
+                  "selector": "div > div.field > ul > br",
+                  "boundingRect": {
+                    "top": 1874,
+                    "bottom": 1894,
+                    "left": 393,
+                    "right": 393,
+                    "width": 0,
+                    "height": 21
+                  },
+                  "snippet": "<br>",
+                  "nodeLabel": "div > div.field > ul > br"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
