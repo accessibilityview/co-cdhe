@@ -1,0 +1,399 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-220-DIV",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,H3,0,DIV",
+            "selector": "div.paragraph__column > div.paragraph__title > h3.mt-0 > div.field",
+            "boundingRect": {
+              "top": 1745,
+              "bottom": 1784,
+              "left": 30,
+              "right": 382,
+              "width": 352,
+              "height": 39
+            },
+            "snippet": "<div class=\"field field--name-field-card-title field--type-string field--label-hidden …\">",
+            "nodeLabel": "Fellows agree:",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.28 (foreground color: #ffffff, background color: #6cbf49, font size: 17.3pt (23px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-221-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.paragraph--type--bp-columns__3col > div.paragraph__card > div.paragraph__column > div.paragraph__title",
+                  "boundingRect": {
+                    "top": 1745,
+                    "bottom": 1784,
+                    "left": 30,
+                    "right": 382,
+                    "width": 352,
+                    "height": 39
+                  },
+                  "snippet": "<div class=\"paragraph__title title_color color__brand-tree-green  \">",
+                  "nodeLabel": "Fellows agree:"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-222-LI",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,UL,0,LI",
+            "selector": "div.paragraph__column > div.field > ul > li",
+            "boundingRect": {
+              "top": 1804,
+              "bottom": 1883,
+              "left": 79,
+              "right": 373,
+              "width": 294,
+              "height": 79
+            },
+            "snippet": "<li>",
+            "nodeLabel": "To be enrolled at a Colorado higher education institution, in a graduate program",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.28 (foreground color: #ffffff, background color: #6cbf49, font size: 13.2pt (17.6px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-223-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV",
+                  "selector": "div.paragraph__column--container-wrapper > div.container > div.paragraph--type--bp-columns__3col > div.paragraph__card",
+                  "boundingRect": {
+                    "top": 1745,
+                    "bottom": 2168,
+                    "left": 30,
+                    "right": 382,
+                    "width": 352,
+                    "height": 423
+                  },
+                  "snippet": "<div class=\"paragraph__card paragraph paragraph--type--card-basic card_no-border parag…\">",
+                  "nodeLabel": "Fellows agree:\nTo be enrolled at a Colorado higher education institution, in a …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-224-LI",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,UL,1,LI",
+            "selector": "div.paragraph__column > div.field > ul > li",
+            "boundingRect": {
+              "top": 1883,
+              "bottom": 1936,
+              "left": 79,
+              "right": 373,
+              "width": 294,
+              "height": 53
+            },
+            "snippet": "<li>",
+            "nodeLabel": "To attend a minimum of 6 of 7 meetings (all virtual)",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.28 (foreground color: #ffffff, background color: #6cbf49, font size: 13.2pt (17.6px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-223-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV",
+                  "selector": "div.paragraph__column--container-wrapper > div.container > div.paragraph--type--bp-columns__3col > div.paragraph__card",
+                  "boundingRect": {
+                    "top": 1745,
+                    "bottom": 2168,
+                    "left": 30,
+                    "right": 382,
+                    "width": 352,
+                    "height": 423
+                  },
+                  "snippet": "<div class=\"paragraph__card paragraph paragraph--type--card-basic card_no-border parag…\">",
+                  "nodeLabel": "Fellows agree:\nTo be enrolled at a Colorado higher education institution, in a …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-225-LI",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,UL,2,LI",
+            "selector": "div.paragraph__column > div.field > ul > li",
+            "boundingRect": {
+              "top": 1936,
+              "bottom": 1988,
+              "left": 79,
+              "right": 373,
+              "width": 294,
+              "height": 53
+            },
+            "snippet": "<li>",
+            "nodeLabel": "To commit 2 hours a month to group work, outside of meetings",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.28 (foreground color: #ffffff, background color: #6cbf49, font size: 13.2pt (17.6px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-223-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV",
+                  "selector": "div.paragraph__column--container-wrapper > div.container > div.paragraph--type--bp-columns__3col > div.paragraph__card",
+                  "boundingRect": {
+                    "top": 1745,
+                    "bottom": 2168,
+                    "left": 30,
+                    "right": 382,
+                    "width": 352,
+                    "height": 423
+                  },
+                  "snippet": "<div class=\"paragraph__card paragraph paragraph--type--card-basic card_no-border parag…\">",
+                  "nodeLabel": "Fellows agree:\nTo be enrolled at a Colorado higher education institution, in a …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-226-LI",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,UL,3,LI",
+            "selector": "div.paragraph__column > div.field > ul > li",
+            "boundingRect": {
+              "top": 1988,
+              "bottom": 2015,
+              "left": 79,
+              "right": 373,
+              "width": 294,
+              "height": 26
+            },
+            "snippet": "<li>",
+            "nodeLabel": "No compensation will be received",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.28 (foreground color: #ffffff, background color: #6cbf49, font size: 13.2pt (17.6px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-223-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV",
+                  "selector": "div.paragraph__column--container-wrapper > div.container > div.paragraph--type--bp-columns__3col > div.paragraph__card",
+                  "boundingRect": {
+                    "top": 1745,
+                    "bottom": 2168,
+                    "left": 30,
+                    "right": 382,
+                    "width": 352,
+                    "height": 423
+                  },
+                  "snippet": "<div class=\"paragraph__card paragraph paragraph--type--card-basic card_no-border parag…\">",
+                  "nodeLabel": "Fellows agree:\nTo be enrolled at a Colorado higher education institution, in a …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-227-LI",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,UL,4,LI",
+            "selector": "div.paragraph__column > div.field > ul > li",
+            "boundingRect": {
+              "top": 2015,
+              "bottom": 2094,
+              "left": 79,
+              "right": 373,
+              "width": 294,
+              "height": 79
+            },
+            "snippet": "<li>",
+            "nodeLabel": "That this is an education and training program tied to the Fellow’s formal educ…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.28 (foreground color: #ffffff, background color: #6cbf49, font size: 13.2pt (17.6px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-223-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV",
+                  "selector": "div.paragraph__column--container-wrapper > div.container > div.paragraph--type--bp-columns__3col > div.paragraph__card",
+                  "boundingRect": {
+                    "top": 1745,
+                    "bottom": 2168,
+                    "left": 30,
+                    "right": 382,
+                    "width": 352,
+                    "height": 423
+                  },
+                  "snippet": "<div class=\"paragraph__card paragraph paragraph--type--card-basic card_no-border parag…\">",
+                  "nodeLabel": "Fellows agree:\nTo be enrolled at a Colorado higher education institution, in a …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-228-LI",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,UL,5,LI",
+            "selector": "div.paragraph__column > div.field > ul > li",
+            "boundingRect": {
+              "top": 2094,
+              "bottom": 2147,
+              "left": 79,
+              "right": 373,
+              "width": 294,
+              "height": 53
+            },
+            "snippet": "<li>",
+            "nodeLabel": "That the work complements the existing work of CDHE",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.28 (foreground color: #ffffff, background color: #6cbf49, font size: 13.2pt (17.6px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-223-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV",
+                  "selector": "div.paragraph__column--container-wrapper > div.container > div.paragraph--type--bp-columns__3col > div.paragraph__card",
+                  "boundingRect": {
+                    "top": 1745,
+                    "bottom": 2168,
+                    "left": 30,
+                    "right": 382,
+                    "width": 352,
+                    "height": 423
+                  },
+                  "snippet": "<div class=\"paragraph__card paragraph paragraph--type--card-basic card_no-border parag…\">",
+                  "nodeLabel": "Fellows agree:\nTo be enrolled at a Colorado higher education institution, in a …"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 7
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-229-H5",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H5",
+            "selector": "div.paragraph__card > div.paragraph__column > div.field > h5.text-align-center",
+            "boundingRect": {
+              "top": 1008,
+              "bottom": 1030,
+              "left": 39,
+              "right": 373,
+              "width": 334,
+              "height": 22
+            },
+            "snippet": "<h5 class=\"text-align-center\">",
+            "nodeLabel": "CDHE Policy Fellows",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-230-H5",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,6,FOOTER,0,DIV,0,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,H5",
+            "selector": "div.field > div.row > div.col-md-3 > h5",
+            "boundingRect": {
+              "top": 2934,
+              "bottom": 2978,
+              "left": 302,
+              "right": 388,
+              "width": 86,
+              "height": 43
+            },
+            "snippet": "<h5>",
+            "nodeLabel": "Contact Us",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]

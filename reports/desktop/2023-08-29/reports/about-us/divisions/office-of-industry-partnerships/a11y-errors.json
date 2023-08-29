@@ -1,0 +1,227 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-131-DIV",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,0,SECTION,1,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,H3,0,DIV",
+            "selector": "div.paragraph__column > div.paragraph__title > h3.mt-0 > div.field",
+            "boundingRect": {
+              "top": 435,
+              "bottom": 485,
+              "left": 690,
+              "right": 1320,
+              "width": 630,
+              "height": 51
+            },
+            "snippet": "<div class=\"field field--name-field-card-title field--type-string field--label-hidden …\">",
+            "nodeLabel": "Our Mission",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.28 (foreground color: #ffffff, background color: #6cbf49, font size: 17.3pt (23px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "15-132-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,0,SECTION,1,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.paragraph--type--bp-columns__2col > div.paragraph__card > div.paragraph__column > div.paragraph__title",
+                  "boundingRect": {
+                    "top": 435,
+                    "bottom": 485,
+                    "left": 690,
+                    "right": 1320,
+                    "width": 630,
+                    "height": 51
+                  },
+                  "snippet": "<div class=\"paragraph__title title_color color__brand-tree-green  \">",
+                  "nodeLabel": "Our Mission"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-133-P",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,0,SECTION,1,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,P",
+            "selector": "div.paragraph__card > div.paragraph__column > div.field > p",
+            "boundingRect": {
+              "top": 505,
+              "bottom": 637,
+              "left": 699,
+              "right": 1311,
+              "width": 612,
+              "height": 132
+            },
+            "snippet": "<p>",
+            "nodeLabel": "Within the Colorado Department of Higher Education, we focus on how higher educ…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.28 (foreground color: #ffffff, background color: #6cbf49, font size: 13.2pt (17.6px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "15-134-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,0,SECTION,1,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV",
+                  "selector": "div.paragraph__column--container-wrapper > div.container > div.paragraph--type--bp-columns__2col > div.paragraph__card",
+                  "boundingRect": {
+                    "top": 435,
+                    "bottom": 658,
+                    "left": 690,
+                    "right": 1320,
+                    "width": 630,
+                    "height": 223
+                  },
+                  "snippet": "<div class=\"paragraph__card paragraph paragraph--type--card-basic card_no-border parag…\">",
+                  "nodeLabel": "Our Mission\n\nWithin the Colorado Department of Higher Education, we focus on ho…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-135-SPAN",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,0,SECTION,1,DIV,0,ARTICLE,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DL,3,DT,1,A,0,SPAN",
+            "selector": "dl.styled > dt > a.ckeditor-accordion-toggler > span",
+            "boundingRect": {
+              "top": 1164,
+              "bottom": 1214,
+              "left": 39,
+              "right": 1311,
+              "width": 1272,
+              "height": 50
+            },
+            "snippet": "<span style=\"background-color:#6cbf49;\">",
+            "nodeLabel": "Higher Education Institutions",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.28 (foreground color: #ffffff, background color: #6cbf49, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-136-SPAN",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,0,SECTION,1,DIV,0,ARTICLE,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DL,9,DT,1,A,0,SPAN",
+            "selector": "dl.styled > dt > a.ckeditor-accordion-toggler > span",
+            "boundingRect": {
+              "top": 1296,
+              "bottom": 1346,
+              "left": 39,
+              "right": 1311,
+              "width": 1272,
+              "height": 50
+            },
+            "snippet": "<span style=\"background-color:#3694c5;\">",
+            "nodeLabel": "Colorado and Regions",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.38 (foreground color: #ffffff, background color: #3694c5, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 4
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-137-H3",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,0,SECTION,1,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H3",
+            "selector": "div.paragraph__card > div.paragraph__column > div.paragraph__title > h3.mt-0",
+            "boundingRect": {
+              "top": 435,
+              "bottom": 485,
+              "left": 30,
+              "right": 660,
+              "width": 630,
+              "height": 51
+            },
+            "snippet": "<h3 class=\"mt-0 mb-0\">",
+            "nodeLabel": "Our Vision",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-138-H5",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,6,FOOTER,0,DIV,0,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,H5",
+            "selector": "div.field > div.row > div.col-md-3 > h5",
+            "boundingRect": {
+              "top": 2315,
+              "bottom": 2356,
+              "left": 1023,
+              "right": 1326,
+              "width": 303,
+              "height": 41
+            },
+            "snippet": "<h5>",
+            "nodeLabel": "Contact Us",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]

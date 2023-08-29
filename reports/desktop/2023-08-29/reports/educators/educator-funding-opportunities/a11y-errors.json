@@ -1,0 +1,238 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-159-SPAN",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,0,SECTION,1,DIV,0,ARTICLE,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DL,2,DT,1,A,0,SPAN",
+            "selector": "dl.styled > dt > a.ckeditor-accordion-toggler > span",
+            "boundingRect": {
+              "top": 1488,
+              "bottom": 1538,
+              "left": 149,
+              "right": 651,
+              "width": 502,
+              "height": 50
+            },
+            "snippet": "<span style=\"background-color:#6cbf49;\">",
+            "nodeLabel": "ECE 101 /103 Class Stipends",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.28 (foreground color: #ffffff, background color: #6cbf49, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-160-SPAN",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,0,SECTION,1,DIV,0,ARTICLE,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DL,6,DT,1,A,0,SPAN",
+            "selector": "dl.styled > dt > a.ckeditor-accordion-toggler > span",
+            "boundingRect": {
+              "top": 1620,
+              "bottom": 1670,
+              "left": 149,
+              "right": 651,
+              "width": 502,
+              "height": 50
+            },
+            "snippet": "<span style=\"background-color:#47a1cf;\">",
+            "nodeLabel": "Colorado Rural Teaching Fellowship",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.88 (foreground color: #ffffff, background color: #47a1cf, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-161-SPAN",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,0,SECTION,1,DIV,0,ARTICLE,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DL,10,DT,1,A,0,SPAN",
+            "selector": "dl.styled > dt > a.ckeditor-accordion-toggler > span",
+            "boundingRect": {
+              "top": 1752,
+              "bottom": 1802,
+              "left": 149,
+              "right": 651,
+              "width": 502,
+              "height": 50
+            },
+            "snippet": "<span style=\"background-color:#6cbf49;\">",
+            "nodeLabel": "Educator Recruitment and Retention Program",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.28 (foreground color: #ffffff, background color: #6cbf49, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-162-SPAN",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,0,SECTION,1,DIV,0,ARTICLE,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DL,2,DT,1,A,0,SPAN",
+            "selector": "dl.styled > dt > a.ckeditor-accordion-toggler > span",
+            "boundingRect": {
+              "top": 1518,
+              "bottom": 1598,
+              "left": 699,
+              "right": 1201,
+              "width": 502,
+              "height": 80
+            },
+            "snippet": "<span style=\"background-color:#6cbf49;\">",
+            "nodeLabel": "Temporary Educator Loan Forgiveness - Application open 9/1/2023-9/30/2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.28 (foreground color: #ffffff, background color: #6cbf49, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-163-SPAN",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,0,SECTION,1,DIV,0,ARTICLE,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DL,6,DT,1,A,0,SPAN",
+            "selector": "dl.styled > dt > a.ckeditor-accordion-toggler > span",
+            "boundingRect": {
+              "top": 1680,
+              "bottom": 1760,
+              "left": 699,
+              "right": 1201,
+              "width": 502,
+              "height": 80
+            },
+            "snippet": "<span style=\"background-color:#47a1cf;\">",
+            "nodeLabel": "Colorado Educator Loan Forgiveness - Application is Closed",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.88 (foreground color: #ffffff, background color: #47a1cf, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-164-SPAN",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,0,SECTION,1,DIV,0,ARTICLE,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DL,10,DT,1,A,0,SPAN",
+            "selector": "dl.styled > dt > a.ckeditor-accordion-toggler > span",
+            "boundingRect": {
+              "top": 1872,
+              "bottom": 1922,
+              "left": 699,
+              "right": 1201,
+              "width": 502,
+              "height": 50
+            },
+            "snippet": "<span style=\"background-color:#6cbf49;\">",
+            "nodeLabel": "Special Service Provider Stipend",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.28 (foreground color: #ffffff, background color: #6cbf49, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-165-SPAN",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,0,SECTION,1,DIV,0,ARTICLE,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DL,14,DT,1,A,0,SPAN",
+            "selector": "dl.styled > dt > a.ckeditor-accordion-toggler > span",
+            "boundingRect": {
+              "top": 2004,
+              "bottom": 2054,
+              "left": 699,
+              "right": 1201,
+              "width": 502,
+              "height": 50
+            },
+            "snippet": "<span style=\"background-color:#47a1cf;\">",
+            "nodeLabel": "National Board Certified Teacher Stipend",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.88 (foreground color: #ffffff, background color: #47a1cf, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 7
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-166-H3",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,0,SECTION,1,DIV,0,ARTICLE,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H3",
+            "selector": "div.paragraph__card > div.paragraph__column > div.paragraph__title > h3.mt-0",
+            "boundingRect": {
+              "top": 1321,
+              "bottom": 1372,
+              "left": 140,
+              "right": 660,
+              "width": 520,
+              "height": 51
+            },
+            "snippet": "<h3 class=\"mt-0 mb-0\">",
+            "nodeLabel": "Aspiring Educator Funding Opportunities",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-167-H5",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,6,FOOTER,0,DIV,0,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,H5",
+            "selector": "div.field > div.row > div.col-md-3 > h5",
+            "boundingRect": {
+              "top": 2241,
+              "bottom": 2282,
+              "left": 1023,
+              "right": 1326,
+              "width": 303,
+              "height": 41
+            },
+            "snippet": "<h5>",
+            "nodeLabel": "Contact Us",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]

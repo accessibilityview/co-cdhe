@@ -1,0 +1,16 @@
+{
+  "heading-order": 242,
+  "color-contrast": 152,
+  "link-name": 10,
+  "image-alt": 9,
+  "list": 6,
+  "frame-title": 6,
+  "aria-required-children": 2,
+  "aria-required-parent": 2,
+  "aria-valid-attr-value": 2,
+  "definition-list": 2,
+  "aria-hidden-focus": 1,
+  "aria-input-field-name": 1,
+  "label": 1,
+  "duplicate-id-active": 1
+}

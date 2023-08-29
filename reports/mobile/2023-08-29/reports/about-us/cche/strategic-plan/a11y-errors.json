@@ -1,0 +1,218 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-241-SPAN",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,0,DIV,7,DIV,0,DL,1,DT,1,A,0,B,0,SPAN",
+            "selector": "dt > a.ckeditor-accordion-toggler > b > span",
+            "boundingRect": {
+              "top": 2231,
+              "bottom": 2281,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 50
+            },
+            "snippet": "<span style=\"background-color:#47a1cf;\">",
+            "nodeLabel": "Materials and Resources",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.88 (foreground color: #ffffff, background color: #47a1cf, font size: 15.0pt (20px), font weight: bold). Expected contrast ratio of 3:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-242-SPAN",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,0,DIV,7,DIV,0,DL,5,DT,1,A,0,B,0,SPAN",
+            "selector": "dt > a.ckeditor-accordion-toggler > b > span",
+            "boundingRect": {
+              "top": 2363,
+              "bottom": 2413,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 50
+            },
+            "snippet": "<span style=\"background-color:#6cbf49;\">",
+            "nodeLabel": "Stakeholders",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.28 (foreground color: #ffffff, background color: #6cbf49, font size: 15.0pt (20px), font weight: bold). Expected contrast ratio of 3:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-243-SPAN",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,0,DIV,7,DIV,0,DL,7,DT,1,A,0,B,0,SPAN",
+            "selector": "dt > a.ckeditor-accordion-toggler > b > span",
+            "boundingRect": {
+              "top": 2429,
+              "bottom": 2509,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 80
+            },
+            "snippet": "<span style=\"background-color:#47a1cf;\">",
+            "nodeLabel": "Public Engagement Opportunities",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.88 (foreground color: #ffffff, background color: #47a1cf, font size: 15.0pt (20px), font weight: bold). Expected contrast ratio of 3:1"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 3
+  },
+  {
+    "id": "definition-list",
+    "title": "`<dl>`'s do not contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
+    "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn more](https://web.dev/definition-list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-244-DL",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,0,DIV,7,DIV,0,DL",
+            "selector": "div > div.field > div.ckeditor-accordion-container > dl.styled",
+            "boundingRect": {
+              "top": 2204,
+              "bottom": 2591,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 386
+            },
+            "snippet": "<dl class=\"styled\">",
+            "nodeLabel": "\n\nMaterials and Resources\nStrategic Plan Working Group\nStakeholders\nPublic Enga…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <dt> or <dd> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-245-BR",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,0,DIV,7,DIV,0,DL,0,BR",
+                  "selector": "div.field > div.ckeditor-accordion-container > dl.styled > br",
+                  "boundingRect": {
+                    "top": 2207,
+                    "bottom": 2227,
+                    "left": 15,
+                    "right": 15,
+                    "width": 0,
+                    "height": 21
+                  },
+                  "snippet": "<br>",
+                  "nodeLabel": "div.field > div.ckeditor-accordion-container > dl.styled > br"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-246-H5",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,6,FOOTER,0,DIV,0,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,H5",
+            "selector": "div.field > div.row > div.col-md-3 > h5",
+            "boundingRect": {
+              "top": 2761,
+              "bottom": 2804,
+              "left": 302,
+              "right": 388,
+              "width": 86,
+              "height": 43
+            },
+            "snippet": "<h5>",
+            "nodeLabel": "Contact Us",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

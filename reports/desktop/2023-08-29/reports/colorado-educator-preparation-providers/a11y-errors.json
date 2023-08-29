@@ -1,0 +1,641 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-158-SPAN",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,P,2,B,0,SPAN,0,SPAN",
+            "selector": "p > b > span > span",
+            "boundingRect": {
+              "top": 888,
+              "bottom": 908,
+              "left": 622,
+              "right": 1105,
+              "width": 483,
+              "height": 21
+            },
+            "snippet": "<span style=\"color:red\">",
+            "nodeLabel": "Diversifying the Educator Workforce: An Equity Imperative",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ff0000, background color: #ffffff, font size: 13.2pt (17.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-159-SPAN",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,P,2,B,0,SPAN",
+                  "selector": "div.field > p > b > span",
+                  "boundingRect": {
+                    "top": 888,
+                    "bottom": 908,
+                    "left": 622,
+                    "right": 1105,
+                    "width": 483,
+                    "height": 21
+                  },
+                  "snippet": "<span style=\"background:white\">",
+                  "nodeLabel": "Diversifying the Educator Workforce: An Equity Imperative"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-160-SPAN",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,5,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,49,P,1,B,0,SPAN",
+            "selector": "div.field > p > b > span",
+            "boundingRect": {
+              "top": 5115,
+              "bottom": 5135,
+              "left": 617,
+              "right": 911,
+              "width": 295,
+              "height": 21
+            },
+            "snippet": "<span style=\"color:#407cca\">",
+            "nodeLabel": "Monday, November 9th 10:00 – noon",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.23 (foreground color: #407cca, background color: #ffffff, font size: 13.2pt (17.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-161-MAIN",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN",
+                  "selector": "div.site-wrapper > div.dialog-off-canvas-main-canvas > div#xyBackground > main#main-content",
+                  "boundingRect": {
+                    "top": 254,
+                    "bottom": 6684,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 6430
+                  },
+                  "snippet": "<main id=\"main-content\" tabindex=\"-1\" class=\"main-container container js-quickedit-main-content\">",
+                  "nodeLabel": "Home  Colorado Educator Preparation Providers\nColorado Educator Preparation Pro…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-162-SUP",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,5,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,49,P,1,B,0,SPAN,1,SUP",
+            "selector": "p > b > span > sup",
+            "boundingRect": {
+              "top": 5112,
+              "bottom": 5128,
+              "left": 788,
+              "right": 806,
+              "width": 17,
+              "height": 16
+            },
+            "snippet": "<sup>",
+            "nodeLabel": "th ",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.23 (foreground color: #407cca, background color: #ffffff, font size: 9.9pt (13.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-161-MAIN",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN",
+                  "selector": "div.site-wrapper > div.dialog-off-canvas-main-canvas > div#xyBackground > main#main-content",
+                  "boundingRect": {
+                    "top": 254,
+                    "bottom": 6684,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 6430
+                  },
+                  "snippet": "<main id=\"main-content\" tabindex=\"-1\" class=\"main-container container js-quickedit-main-content\">",
+                  "nodeLabel": "Home  Colorado Educator Preparation Providers\nColorado Educator Preparation Pro…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-163-SPAN",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,5,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,54,DIV,0,P,0,B,0,SPAN",
+            "selector": "div > p > b > span",
+            "boundingRect": {
+              "top": 5544,
+              "bottom": 5565,
+              "left": 377,
+              "right": 662,
+              "width": 286,
+              "height": 21
+            },
+            "snippet": "<span style=\"color:#407cca\">",
+            "nodeLabel": "Tuesday, November 10th, 10-11:00",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.23 (foreground color: #407cca, background color: #ffffff, font size: 13.2pt (17.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-161-MAIN",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN",
+                  "selector": "div.site-wrapper > div.dialog-off-canvas-main-canvas > div#xyBackground > main#main-content",
+                  "boundingRect": {
+                    "top": 254,
+                    "bottom": 6684,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 6430
+                  },
+                  "snippet": "<main id=\"main-content\" tabindex=\"-1\" class=\"main-container container js-quickedit-main-content\">",
+                  "nodeLabel": "Home  Colorado Educator Preparation Providers\nColorado Educator Preparation Pro…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-164-SUP",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,5,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,54,DIV,0,P,0,B,0,SPAN,1,SUP",
+            "selector": "p > b > span > sup",
+            "boundingRect": {
+              "top": 5542,
+              "bottom": 5557,
+              "left": 563,
+              "right": 576,
+              "width": 13,
+              "height": 16
+            },
+            "snippet": "<sup>",
+            "nodeLabel": "th",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.23 (foreground color: #407cca, background color: #ffffff, font size: 9.9pt (13.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-161-MAIN",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN",
+                  "selector": "div.site-wrapper > div.dialog-off-canvas-main-canvas > div#xyBackground > main#main-content",
+                  "boundingRect": {
+                    "top": 254,
+                    "bottom": 6684,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 6430
+                  },
+                  "snippet": "<main id=\"main-content\" tabindex=\"-1\" class=\"main-container container js-quickedit-main-content\">",
+                  "nodeLabel": "Home  Colorado Educator Preparation Providers\nColorado Educator Preparation Pro…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-165-SPAN",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,5,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,54,DIV,2,P,2,B,0,SPAN",
+            "selector": "div > p > b > span",
+            "boundingRect": {
+              "top": 5700,
+              "bottom": 5721,
+              "left": 377,
+              "right": 662,
+              "width": 286,
+              "height": 21
+            },
+            "snippet": "<span style=\"color:#407cca\">",
+            "nodeLabel": "Tuesday, November 10th, 11-12:00",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.23 (foreground color: #407cca, background color: #ffffff, font size: 13.2pt (17.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-161-MAIN",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN",
+                  "selector": "div.site-wrapper > div.dialog-off-canvas-main-canvas > div#xyBackground > main#main-content",
+                  "boundingRect": {
+                    "top": 254,
+                    "bottom": 6684,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 6430
+                  },
+                  "snippet": "<main id=\"main-content\" tabindex=\"-1\" class=\"main-container container js-quickedit-main-content\">",
+                  "nodeLabel": "Home  Colorado Educator Preparation Providers\nColorado Educator Preparation Pro…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-166-SUP",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,5,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,54,DIV,2,P,2,B,0,SPAN,1,SUP",
+            "selector": "p > b > span > sup",
+            "boundingRect": {
+              "top": 5698,
+              "bottom": 5713,
+              "left": 563,
+              "right": 576,
+              "width": 13,
+              "height": 16
+            },
+            "snippet": "<sup>",
+            "nodeLabel": "th",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.23 (foreground color: #407cca, background color: #ffffff, font size: 9.9pt (13.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-161-MAIN",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN",
+                  "selector": "div.site-wrapper > div.dialog-off-canvas-main-canvas > div#xyBackground > main#main-content",
+                  "boundingRect": {
+                    "top": 254,
+                    "bottom": 6684,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 6430
+                  },
+                  "snippet": "<main id=\"main-content\" tabindex=\"-1\" class=\"main-container container js-quickedit-main-content\">",
+                  "nodeLabel": "Home  Colorado Educator Preparation Providers\nColorado Educator Preparation Pro…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-167-SPAN",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,5,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,54,DIV,5,P,1,B,0,SPAN",
+            "selector": "div > p > b > span",
+            "boundingRect": {
+              "top": 5871,
+              "bottom": 5888,
+              "left": 637,
+              "right": 918,
+              "width": 280,
+              "height": 17
+            },
+            "snippet": "<span style=\"color:#407cca\">",
+            "nodeLabel": "Wednesday, November 11th, 9:30 – 11:00",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.23 (foreground color: #407cca, background color: #ffffff, font size: 11.0pt (14.6667px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-161-MAIN",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN",
+                  "selector": "div.site-wrapper > div.dialog-off-canvas-main-canvas > div#xyBackground > main#main-content",
+                  "boundingRect": {
+                    "top": 254,
+                    "bottom": 6684,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 6430
+                  },
+                  "snippet": "<main id=\"main-content\" tabindex=\"-1\" class=\"main-container container js-quickedit-main-content\">",
+                  "nodeLabel": "Home  Colorado Educator Preparation Providers\nColorado Educator Preparation Pro…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-168-SUP",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,5,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,54,DIV,5,P,1,B,0,SPAN,1,SUP",
+            "selector": "p > b > span > sup",
+            "boundingRect": {
+              "top": 5869,
+              "bottom": 5882,
+              "left": 817,
+              "right": 827,
+              "width": 10,
+              "height": 13
+            },
+            "snippet": "<sup>",
+            "nodeLabel": "th",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.23 (foreground color: #407cca, background color: #ffffff, font size: 8.3pt (11px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-161-MAIN",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN",
+                  "selector": "div.site-wrapper > div.dialog-off-canvas-main-canvas > div#xyBackground > main#main-content",
+                  "boundingRect": {
+                    "top": 254,
+                    "bottom": 6684,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 6430
+                  },
+                  "snippet": "<main id=\"main-content\" tabindex=\"-1\" class=\"main-container container js-quickedit-main-content\">",
+                  "nodeLabel": "Home  Colorado Educator Preparation Providers\nColorado Educator Preparation Pro…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-169-SPAN",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,5,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,54,DIV,7,P,0,B,0,SPAN",
+            "selector": "div > p > b > span",
+            "boundingRect": {
+              "top": 6077,
+              "bottom": 6097,
+              "left": 377,
+              "right": 672,
+              "width": 295,
+              "height": 21
+            },
+            "snippet": "<span style=\"color:#407cca\">",
+            "nodeLabel": "Thursday, November 12th, 10-11:30",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.23 (foreground color: #407cca, background color: #ffffff, font size: 13.2pt (17.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-161-MAIN",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN",
+                  "selector": "div.site-wrapper > div.dialog-off-canvas-main-canvas > div#xyBackground > main#main-content",
+                  "boundingRect": {
+                    "top": 254,
+                    "bottom": 6684,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 6430
+                  },
+                  "snippet": "<main id=\"main-content\" tabindex=\"-1\" class=\"main-container container js-quickedit-main-content\">",
+                  "nodeLabel": "Home  Colorado Educator Preparation Providers\nColorado Educator Preparation Pro…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-170-SUP",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,5,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,54,DIV,7,P,0,B,0,SPAN,1,SUP",
+            "selector": "p > b > span > sup",
+            "boundingRect": {
+              "top": 6074,
+              "bottom": 6090,
+              "left": 572,
+              "right": 585,
+              "width": 13,
+              "height": 16
+            },
+            "snippet": "<sup>",
+            "nodeLabel": "th",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.23 (foreground color: #407cca, background color: #ffffff, font size: 9.9pt (13.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-161-MAIN",
+                  "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN",
+                  "selector": "div.site-wrapper > div.dialog-off-canvas-main-canvas > div#xyBackground > main#main-content",
+                  "boundingRect": {
+                    "top": 254,
+                    "bottom": 6684,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 6430
+                  },
+                  "snippet": "<main id=\"main-content\" tabindex=\"-1\" class=\"main-container container js-quickedit-main-content\">",
+                  "nodeLabel": "Home  Colorado Educator Preparation Providers\nColorado Educator Preparation Pro…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 11
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-171-H3",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H3",
+            "selector": "div.paragraph__card > div.paragraph__column > div.paragraph__title > h3.mt-0",
+            "boundingRect": {
+              "top": 768,
+              "bottom": 819,
+              "left": 368,
+              "right": 1320,
+              "width": 953,
+              "height": 51
+            },
+            "snippet": "<h3 class=\"mt-0 mb-0\">",
+            "nodeLabel": "EVENT KICKOFF AND KEYNOTE",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-172-H5",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,5,FOOTER,0,DIV,0,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,H5",
+            "selector": "div.field > div.row > div.col-md-3 > h5",
+            "boundingRect": {
+              "top": 6770,
+              "bottom": 6811,
+              "left": 1023,
+              "right": 1326,
+              "width": 303,
+              "height": 41
+            },
+            "snippet": "<h5>",
+            "nodeLabel": "Contact Us",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more](https://web.dev/image-alt/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-173-IMG",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,P,0,IMG",
+            "selector": "div.paragraph__column > div.field > p > img",
+            "boundingRect": {
+              "top": 859,
+              "bottom": 1049,
+              "left": 377,
+              "right": 554,
+              "width": 177,
+              "height": 190
+            },
+            "snippet": "<img src=\"https://cdhe.colorado.gov/sites/highered/files/Keynote%202.PNG\">",
+            "nodeLabel": "div.paragraph__column > div.field > p > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-174-IMG",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,1,SECTION,1,DIV,0,ARTICLE,1,DIV,5,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,45,P,0,IMG",
+            "selector": "div.paragraph__column > div.field > p > img.img-responsive",
+            "boundingRect": {
+              "top": 4759,
+              "bottom": 4932,
+              "left": 377,
+              "right": 827,
+              "width": 450,
+              "height": 173
+            },
+            "snippet": "<img class=\"img-responsive\" src=\"https://cdhe.colorado.gov/sites/highered/files/styles/large_thumbnail_450x…\">",
+            "nodeLabel": "div.paragraph__column > div.field > p > img.img-responsive",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]
